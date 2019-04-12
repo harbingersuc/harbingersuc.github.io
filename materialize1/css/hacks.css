@@ -1,0 +1,7 @@
+@media all and (-ms-high-contrast:none) {
+	.testimonials__image img{
+		width: auto!important;
+	}
+
+ 	*::-ms-backdrop, .testimonials__image img { width: auto!important; } /* IE11 */
+ }
