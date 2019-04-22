@@ -1,0 +1,379 @@
+@media screen and (max-width: 1199px){
+	.header__nav{
+		justify-content: center;
+	}
+
+	.header__intro{
+		display: flex;
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.container{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.header__bottomLine{
+		display: none;
+	}
+	
+	.main{
+		padding-bottom: 50px;
+	}
+
+	.description__services{
+		flex-direction: column;
+		align-items: center;
+	}
+
+
+	.services__item--2{
+		margin-top: 0px;
+	}
+
+	.services__item, .quality__block, .description__team{
+		margin-top: 50px;
+	}
+
+	.quality__img{
+		display: none;
+	}
+	
+	.description__teamWrapper{
+		display: flex;
+		justify-content: center;
+	}
+
+	.description__team{
+		position: static;
+	}
+
+	.footer__logo, .footer__addresses{
+		justify-content: center;
+	}
+}
+
+/* IPAD PRO */
+
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1024px) and (min-device-height : 1366px) and (max-device-height : 1366px) and (min-width: 1024px) and (max-width: 1024px){
+	.header__bottomLine{
+		top: 640px;
+	}
+
+	.arrow__link i{
+		font-size: 50px;
+		margin: 151px  38px 0 0;
+	}
+}
+
+
+@media only screen 
+  and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+	.header__bottomLine{
+		top: 680px;
+	}
+
+	.arrow__link i{
+		font-size: 50px;
+		margin: 151px  38px 0 0;
+	}
+}
+
+/* IPAD */
+@media only screen and (min-device-width : 768px) and (max-device-width: 1024px) and (orientation:portrait) {
+  	.header{
+  		height: 53vh;
+  	}
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+	.header__bottomLine{
+		top: 528px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.header{
+		background-image: url(""), url("../media/images/header-bg.jpg");
+}
+	.intro__title{
+		padding: 0;
+		text-align: center;
+		font-size: 31px;
+	}
+
+	.intro__title::before{
+		display: none;
+	}
+
+	.arrow__link{
+		margin: 42px 38px 0 0;
+	}
+	
+	.modal__dialog{
+		height: 100%;
+		overflow-y: scroll;
+	}
+	.input__name, .input__email {
+		padding: 20px 0 24.5px 20px;
+	}
+
+	.modal__textarea{
+		height: 200px;
+	}
+
+	.input__submit{
+		width: 100%;
+		padding: 20px 100px 20px 100px;
+	}
+
+
+}
+
+@media screen and (max-width: 767px) and (orientation: landscape) {
+	.header{
+		height: 100vh;
+	}
+
+	.header__arrow{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.footer__addresses{
+		flex-direction: column;
+		    align-items: center;
+	}
+
+	.footer__list{
+		margin-left: 0;
+		margin-top: 30px;
+	}
+
+	.footer__list:last-child{
+		flex-direction: column;
+		display: flex;
+	}
+
+	.footer__item--s{
+		margin-top: 14px;
+	}
+
+	.footer__item--s:last-child{
+		margin-left: 0;
+	}
+
+	.footer__rights{
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 595px){
+	.header__nav{
+		flex-direction: column;
+	}
+
+	.nav__list{
+		padding-left: 0;
+		margin-top: 20px;
+	}
+}	
+
+@media screen and (max-width: 489px) {
+
+	.header{
+		height: 100vh;
+	}
+
+
+
+	.nav__list{
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.nav__item{
+		margin-left: 0;
+		margin: 11px;
+	}
+
+	.nav__link{
+		font-size: 19px;
+	}
+
+	.header__intro {
+	    padding-top: 82px;
+	}
+
+	.intro__title{
+    	font-size: 33px;
+    	line-height: 52px;
+	}
+	
+	.header__arrow{
+		display: none;
+	}
+
+	.services__text, .quality__text, .team__text{
+		font-size: 13px;
+		line-height: 34px;
+	}
+
+	.services__item, .quality__block, .description__team{
+		padding: 60px 30px 70px;
+	}
+	
+	.cta{
+		padding: 15px 15px;
+		font-size: 14px;
+		width: 100%;
+		text-align: center;
+	}
+	.cta i{
+		margin-left: 18px;
+		font-size: 13px;
+	}
+
+}
+
+@media screen and (max-width: 320px) {
+
+	.input__name, .input__email {
+	    padding: 14px 0 24.5px 14px;
+	}
+
+	.modal__textarea {
+	    height: 150px;
+	}
+
+	.close{
+		left: 82%;
+	}
+}
+
+
+/* ----------- Galaxy S4, S5 and Note 3 ----------- */
+
+/* Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: landscape) {
+	.header{
+		height: 100vh;
+	}
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+  	.header__intro {
+  	    padding-top: 74px;
+  	}
+
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+	
+	.header{
+		height: 100vh;
+	}
+  	.header__intro {
+  	    padding-top: 44px;
+  	}
+
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+
+  	.header__intro {
+  	    padding-top: 74px;
+  	}
+
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Landscape */
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+	.header__intro {
+	    padding-top: 26px;
+	}
+}
+
+/* ----------- iPhone 4/4SE ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) and (orientation:portrait)
+{
+    .header{
+    	height: 100vh;
+    }
+
+    .header__intro {
+        padding-top: 42px;
+
+    }
+
+    .intro__title{
+    	line-height: 35px;
+    }
+}
+
+
+@media only screen and (min-device-width: 320px)  and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) and (orientation:landscape)
+{	
+	.header__nav{
+		padding-top: 22px;
+	}
+    .header__intro {
+        padding-top: 22px;
+
+    }
+
+    .intro__title{
+    	line-height: 35px;
+    }
+
+    .cta{
+    	font-size: 12px;
+    }
+
+    .cta i {
+        margin-left: 11px;
+    }
+}

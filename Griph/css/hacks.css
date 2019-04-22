@@ -1,0 +1,40 @@
+/* SOME TWEAKS FOR IE */
+@media all and (-ms-high-contrast:none) {
+ 	.services__item--1 { left: 21.6%; } /* IE10 */
+ 	.cta-t i {
+ 		margin-left: 70px;
+ 	}
+
+ 	
+ 	.header__bottomLine{
+ 		top: 552px;
+ 	}
+
+ 	.modal__wrapper{
+ 		justify-content: initial;
+ 	}
+
+ 	.modal__textarea {
+ 		overflow: auto;
+ 	}
+
+ 	*::-ms-backdrop, .services__item--1 { left: 21.6%; } /* IE11 */
+	*::-ms-backdrop, .cta-t i{
+		margin-left: 70px;
+	}
+
+	.header__bottomLine{
+		top: 552px;
+	}
+
+	 	.modal__wrapper{
+ 		justify-content: flex-start;
+ 	}
+
+	.modal__textarea {
+		overflow: auto;
+	}
+
+
+ }
+
