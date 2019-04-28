@@ -1,0 +1,22 @@
+/* SOME TWEAKS FOR IE */
+@media all and (-ms-high-contrast:none) {
+	body{
+		overflow-x: hidden;
+	}
+	.testimonials__item p {
+		width: 100%;
+	}
+
+	.testimonials__item{
+		width: 33%;
+	}
+
+	svg{
+		bottom: -36%;
+	}
+
+ 	*::-ms-backdrop, .testimonials__item p { width: 100%; } /* IE11 */
+	*::-ms-backdrop, .testimonials__item { width: 33%; } /* IE11 */
+	*::-ms-backdrop, body { overflow-x: hidden; } /* IE11 */
+	*::-ms-backdrop, svg { bottom: -36%; } /* IE11 */
+ }
